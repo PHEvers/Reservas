@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReservaDeChromes.Domain", "src\ReservaDeChromes.Domain\ReservaDeChromes.Domain.csproj", "{646A9206-4D73-4B65-A7FD-EECF8E889746}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReservaDeChromes.Application", "src\ReservaDeChromes.Application\ReservaDeChromes.Application.csproj", "{34C0A6EF-6BBF-42CF-9101-587766968A9D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReservaDeChromes.Infra.Data", "src\ReservaDeChromes.Infra.Data\ReservaDeChromes.Infra.Data.csproj", "{F0C445AC-FC4B-4ABC-90D0-B22AB72DCFC7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReservaDeChromes.Web", "src\ReservaDeChromes.Web\ReservaDeChromes.Web.csproj", "{C6B5A4A7-D059-4162-931F-827FDD405712}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{646A9206-4D73-4B65-A7FD-EECF8E889746}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{646A9206-4D73-4B65-A7FD-EECF8E889746}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{646A9206-4D73-4B65-A7FD-EECF8E889746}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{646A9206-4D73-4B65-A7FD-EECF8E889746}.Release|Any CPU.Build.0 = Release|Any CPU
+		{34C0A6EF-6BBF-42CF-9101-587766968A9D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34C0A6EF-6BBF-42CF-9101-587766968A9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34C0A6EF-6BBF-42CF-9101-587766968A9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34C0A6EF-6BBF-42CF-9101-587766968A9D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F0C445AC-FC4B-4ABC-90D0-B22AB72DCFC7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F0C445AC-FC4B-4ABC-90D0-B22AB72DCFC7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F0C445AC-FC4B-4ABC-90D0-B22AB72DCFC7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F0C445AC-FC4B-4ABC-90D0-B22AB72DCFC7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C6B5A4A7-D059-4162-931F-827FDD405712}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6B5A4A7-D059-4162-931F-827FDD405712}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6B5A4A7-D059-4162-931F-827FDD405712}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6B5A4A7-D059-4162-931F-827FDD405712}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EEB8F989-8E74-4126-9F0A-6A3A8A76045C}
+	EndGlobalSection
+EndGlobal
